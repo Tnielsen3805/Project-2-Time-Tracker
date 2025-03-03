@@ -1,0 +1,20 @@
+{
+   "compilerOptions": {
+    "jsx": "react-jsx",
+     "module": "Node16",                
+     "target": "ESNext",                
+     "moduleResolution": "NodeNext",    
+     "esModuleInterop": true,            
+     "resolveJsonModule": true,        
+     "outDir": "./dist",                
+     "rootDir": "./src",                 
+     "strict": true,                    
+     "skipLibCheck": true,               
+     "experimentalDecorators": true,     
+     "emitDecoratorMetadata": true       
+   },
+   "include": ["src/**/*.ts"],        
+   "exclude": ["node_modules"]          
+ }
+ 
+ 
